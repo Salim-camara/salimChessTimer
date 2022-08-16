@@ -1,0 +1,90 @@
+/* GLOBAL */
+body {
+    background-color: #303030;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+
+/* APP */
+.App {
+    height: 100vh;
+}
+
+.side_top {
+    height: 50%;
+    transform: rotate(180deg);
+}
+
+.side_bottom {
+    height: 50%;
+}
+
+.central_bar {
+    position: absolute;
+    top: 50%;
+    background-color: #fff;
+    height: 1px;
+    width: 100%;
+}
+
+.icon {
+    position: absolute;
+    top: 51.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: #2F4F4F;;
+}
+
+.in-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.restart {
+    left: 1%;
+}
+
+.pause {
+    left: 16%;
+}
+
+.params {
+    left: 80%;
+}
+
+
+
+/* TIMER INTERFACE */
+.timerInterface {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timerInterface_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    height: 50%;
+    width: 80%;
+    border-radius: 5px;
+    background-color: #2F4F4F;
+    margin-bottom: 20px;
+}
+
+.timerInterface_info {
+    margin-top: 20px;
+}
